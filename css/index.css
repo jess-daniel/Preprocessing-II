@@ -173,15 +173,19 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 75px;
+  border-bottom: 2px dashed lightgray;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 40%;
+  padding: 0 20px 0 0;
 }
 nav ul a {
   text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
 }
 .footer {
   width: 100%;
@@ -193,6 +197,12 @@ nav ul a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home header {
+  border-bottom: 2px dashed lightgray;
+}
+.home header .head-info {
+  margin: 10px 0px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -239,4 +249,15 @@ nav ul a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 1.5rem;
+  width: 80%;
 }
